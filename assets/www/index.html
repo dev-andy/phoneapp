@@ -52,25 +52,32 @@
 	</head>
   
   <body>
+  
 	<div data-role="page" id="home" class="type-interior"  data-theme="b">
 	<!-- index page header -->
 	<div data-role="header" data-theme="a" data-position="fixed" data-position="inline">
 		<h1>Writtle College Short Courses </h1>
+		<!-- Phone Buttom -->
 		<ul>
 			<li>
-				<a class="phone" id="phone" target="_self" href="tel:900342800" >
+				<a class="phone" id="phone" target="_self" href="tel:01245424200" >
 				<img src="images/phone.png" height="35" width="50"  alt="Call">
 				</a>
 			</li>
 		</ul>
 		
-			
+		<div id="logo_button" class="ui-left">
+			<ul>
+			<li><a href="#home"><img src="images/logo.png" height="35px" /></a></li>
+			</ul>
+		</div>	
 			
 	</div> <!-- Header -->
-
+		<!-- Main Image tags -->
 	 <div id="content">
-	 <img src="images/90.jpg"/>
+		<img src="images/902.jpg" />
 	 </div>
+	 
 		<div data-role="content">
 			<div id="main-content">
 				<h1>Short Courses and Workshops </h1>
@@ -79,10 +86,10 @@
 			</div>
 			
 			<ul data-role="listview"  data-corners="false" data-theme="w" data-inset="true">
-				<li><a href="#second">News</a></li>
+				<li><a href="#news">News</a></li>
 				<li><a href="#second">Courses</a></li>
-				<li><a href="#second">Contact Us</a></li>
-				<li><a href="http://www.writtle.ac.uk"  rel="external" class="ajaxtrigger">Vist Website</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+				
 				
 			</ul>
 			
@@ -92,7 +99,7 @@
 		
 		
 		
-	<a href="#info" data-icon="info" data-role="button" data-iconpos="notext" id="intro" class="ui-btn-right"data-rel="dialog" data-transition="pop">info</a>	
+	
 	</div>	<!-- Content-->		
 	
 	<div data-role="footer"  data-theme="a" class="footer-docs">
@@ -100,12 +107,12 @@
 		<a href="#info" data-icon="info" data-role="button" data-iconpos="notext" id="intro" class="ui-btn-right"data-rel="dialog" data-transition="pop">info</a>
 	</div>	<!--footer-->
 	
-	</div> <!-- Page -->	
+</div> <!--  Home Page -->	
 	
 	
 	 
 <!-- Start of second page -->
-<div data-role="page" id="second">
+<div data-role="page" id="news">
  
     <div data-role="header">
         <h1>Second</h1>
@@ -120,7 +127,7 @@
         
         <div data-role="navbar" data-iconpos="top">
 		<ul>
-			<li><a href="a.html" data-icon="delete">Friends</a></li>
+			<li><a href="a.html" data-icon="home">Home</a></li>
 			<li><a href="b.html"data-icon="delete">Albums</a></li>
 			<li><a href="c.html"data-icon="delete">Emails</a></li>
 			<li><a href="d.html"data-role="button" data-icon="delete">Info</a></li>
@@ -134,15 +141,93 @@
 	
 	
 	
+
+	
+	
+	
+	
+	
+	
+	
+	<!-- Start of contact page -->
+	<div data-role="page" id="contact" class="type-interior"  data-theme="b">
+	<!-- index page header -->
+	<div data-role="header" data-theme="a" data-position="fixed" data-position="inline">
+		<h1>Contact Us </h1>
+		<!-- Phone Buttom -->
+		<ul>
+			<li>
+				<a class="phone" id="phone" target="_self" href="tel:01245424200" >
+				<img src="images/phone.png" height="35" width="50"  alt="Call">
+				</a>
+			</li>
+		</ul>
+		
+		<div id="logo_button" class="ui-left">
+			<ul>
+			<li><a href="#home"><img src="images/logo.png" /></a></li>
+			</ul>
+		</div>	
+			
+	</div> <!-- Header -->
+		<!-- Main Image tags -->
+	 <div id="content">
+		<img src="images/90.jpg" />
+	 </div>
+	 
+		<div data-role="content">
+			<div id="main-content">
+				<h1>Contact Us </h1>
+					<p>For more information simply click on the course title. To avoid disappointment please book at least three weeks in advance.
+						To make a booking call 01245 424286 </p>
+			</div>
+			
+			
+		
+	
+		
+		
+		
+		
+	
+	</div>	<!-- Content-->		
+	
+	<div data-role="footer"  data-theme="a" class="footer-docs">
+		<p style="text-align:center;">&copy; 2012 Writtle College</p>
+		<a href="#info" data-icon="info" data-role="button" data-iconpos="notext" id="intro" class="ui-btn-right"data-rel="dialog" data-transition="pop">info</a>
+	</div>	<!--footer-->
+	
+	</div> <!-- Page -->	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Pop Up Pages  -->
+<!-- Info Page -->	
 <div data-role="page" id="info">
     <div data-role="header" data-theme="a">
         <h1>Info About App</h1>
-		</div>
-	<div data-role="content">
-	<p>Version <b>0.1 Dev</b></p>
-	  <p id="deviceProperties">Loading device properties...</p>
 	</div>
-    </div><!-- /header -->
+	<div data-role="content">
+		<p>Version <b>0.1 Dev</b></p>
+		<p id="deviceProperties">Loading device properties...</p>
+	</div>
+</div><!-- info page -->	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	<script type="text/javascript" charset="utf-8" src="apis/device.js"></script>
